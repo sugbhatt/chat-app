@@ -12,6 +12,7 @@ function sendMessage(event) {
 
     document.getElementById('chatHistory').appendChild(messageElement);
     socket.emit('message', message);
+}
 
     socket.on('server-message', (message) => {
         const messageElement = document.createElement('div');
@@ -20,4 +21,3 @@ function sendMessage(event) {
     
         document.getElementById('chatHistory').appendChild(messageElement);        
     })
-}
