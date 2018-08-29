@@ -1,0 +1,15 @@
+section {
+    margin: 2em;
+}
+form {
+    margin: 2em;
+}
+.message {
+    box-shadow: 5px 5px 5px #ddd;
+    padding: 1em;
+    margin: .5 em;
+    background-color: lightgreen;
+}
+.message-received {
+    background-color: whitesmoke;
+}
